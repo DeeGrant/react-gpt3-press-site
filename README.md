@@ -1,5 +1,7 @@
 # react-gpt3-press-site
 
+[Application One](https://www.youtube.com/watch?v=F627pKNUCVQ&t=212s) from [JavaScript Mastery's](https://www.youtube.com/@javascriptmastery) tutorial.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
