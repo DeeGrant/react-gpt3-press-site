@@ -1,15 +1,20 @@
 import './App.css';
-import {Article, Brand, CTA, Navbar, Feature} from './components'
+import { Blog, Features, Footer, Header, Possibility, WhatGPT3 } from './containers';
+import {Brand, CTA, Navbar} from './components'
 
 function App() {
   return (
       <div>
           <h1>GPT-3</h1>
-          <Article></Article>
           <Brand></Brand>
           <CTA></CTA>
           <Navbar></Navbar>
-          <Feature></Feature>
+          <Blog></Blog>
+          <Features></Features>
+          <Footer></Footer>
+          <Header></Header>
+          <Possibility></Possibility>
+          <WhatGPT3></WhatGPT3>
       </div>
   );
 }
