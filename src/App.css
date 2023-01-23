@@ -36,7 +36,6 @@ a {
 }
 
 .scale-up-center {
-  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
   animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
@@ -68,7 +67,11 @@ a {
     transform: scale(1);
   }
 }
+/* ----------------------------------------------
+ * End Animista
+ * ---------------------------------------------- */
 
+/* TODO change to mobile first?*/
 @media screen and (max-width: 700px){
   .section__padding {
     padding: 4rem;
