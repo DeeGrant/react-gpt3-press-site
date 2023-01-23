@@ -11,8 +11,10 @@ function App() {
           </section>
           <Brand></Brand>
           <WhatGPT3></WhatGPT3>
-          <Features></Features>
-          <Possibility></Possibility>
+          <section className="gradient__bg">
+              <Features></Features>
+              <Possibility></Possibility>
+          </section>
           <CTA></CTA>
           <Blog></Blog>
           <Footer></Footer>
