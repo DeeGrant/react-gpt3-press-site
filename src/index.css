@@ -14,23 +14,11 @@
   --color-bg-button: #FF4820;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
-}
-
 body {
   background: var(--color-bg);
   color: var(--color-text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  color: unset;
-  text-decoration: none;
 }
 
 .scale-up-center {

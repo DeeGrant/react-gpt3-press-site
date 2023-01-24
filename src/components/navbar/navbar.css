@@ -11,9 +11,8 @@ nav {
     text-transform: capitalize;
 }
 
-img {
+.logo {
     margin-right: 2rem;
-    width: 3.875rem;
     height: 1rem;
 }
 
@@ -39,19 +38,6 @@ li:nth-last-of-type(2) {
     padding-top: 1rem;
 }
 
-button {
-    background: var(--color-bg-button);
-    border-style: none;
-    border-radius: .25rem;
-    color: #fff;
-    padding: .5rem 1rem;
-
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 1.125rem;
-    cursor: pointer;
-}
-
 svg {
     position: relative;
     cursor: pointer;
@@ -72,8 +58,8 @@ svg {
 
 @media screen and (min-width: 700px) {
 
-
 }
+
 @media screen and (min-width: 1020px) {
     nav {
         padding: 2rem 6rem;
@@ -100,9 +86,5 @@ svg {
 
     svg {
         display: none;
-    }
-
-    button {
-        padding: .6rem 1.5rem;
     }
 }

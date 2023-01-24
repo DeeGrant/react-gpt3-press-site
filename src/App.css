@@ -10,11 +10,24 @@
 }
 
 .section__padding {
-  padding: 4rem 2rem;
+  padding: 2rem;
 }
 
 .section__margin {
-  margin: 4rem 2rem;
+  margin: 2rem;
+}
+
+.btn {
+  background: var(--color-bg-button);
+  border-style: none;
+  border-radius: .25rem;
+  color: #fff;
+  padding: .5rem 1rem;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 1.125rem;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 550px) {
@@ -27,12 +40,16 @@
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1020px) {
   .section__padding {
     padding: 4rem 6rem;
   }
 
   .section__margin {
     margin: 4rem 6rem;
+  }
+
+  .btn {
+    padding: .6rem 1.5rem;
   }
 }

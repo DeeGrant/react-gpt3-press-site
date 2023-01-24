@@ -8,7 +8,7 @@ const Navbar = () => {
 
     return (
         <nav>
-            <img src={logo} alt="logo"/>
+            <img src={logo} alt="logo" className="logo"/>
             <ul className={showMobileMenu ? "show-mobile scale-up-center" : ""}>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#wgpt3">What is GPT3?</a></li>
@@ -16,7 +16,7 @@ const Navbar = () => {
                 <li><a href="#features">Case Studies</a></li>
                 <li><a href="#blog">Library</a></li>
                 <li><a href="#">Sign in</a></li>
-                <li><button type="button">Sign up</button></li>
+                <li><button type="button" className="btn">Sign up</button></li>
             </ul>
             {showMobileMenu
                 ? <RiCloseLine color="#fff" size={27} onClick={() => setShowMobileMenu(false)} />
