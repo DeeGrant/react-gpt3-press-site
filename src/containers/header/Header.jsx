@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <header className="section__padding">
             <div className="hero">
-                <h2 className="gradient__text">Let's build something amazing with GPT-3 OpenAI</h2>
+                <h1 className="gradient__text">Let's build something amazing with GPT-3 OpenAI</h1>
                 <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
                 <form>
                     <input placeholder="Your Email Address" className="email"/>
