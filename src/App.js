@@ -8,8 +8,8 @@ function App() {
           <section className="gradient__bg">
               <Navbar></Navbar>
               <Header></Header>
+              <Brand></Brand>
           </section>
-          <Brand></Brand>
           <WhatGPT3></WhatGPT3>
           <section className="gradient__bg">
               <Features></Features>

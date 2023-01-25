@@ -1,0 +1,17 @@
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+.brands img {
+    width: 6rem;
+}
+
+@media screen and (min-width: 1020px) {
+    .brands {
+        width: 1020px;
+        margin: auto;
+    }
+}
