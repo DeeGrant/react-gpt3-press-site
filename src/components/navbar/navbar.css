@@ -89,3 +89,10 @@ svg {
         display: none;
     }
 }
+
+@media screen and (min-width: 1700px) {
+    nav {
+        width: 1700px;
+        margin: auto;
+    }
+}
