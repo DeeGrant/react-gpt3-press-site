@@ -1,0 +1,7 @@
+article {
+    overflow: hidden;
+}
+
+article img {
+    max-width: 20rem;
+}
