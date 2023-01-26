@@ -1,0 +1,105 @@
+/* TODO improve styles */
+/* TODO move header styling */
+
+#wgpt3 {
+    background: var(--color-blog);
+    font-family: var(--font-family);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+#wgpt3 p {
+    margin-bottom: 0;
+}
+
+.explore {
+    text-align: center;
+}
+.explore a {
+    color: var(--color-subtext);
+}
+
+.examples {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+}
+
+h4 {
+    display: inline-block;
+    position: relative;
+
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2;
+}
+h4:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 60%;
+    bottom: 1.9em;
+    background: var(--gradient-bar);
+}
+
+@media screen and (min-width: 700px) {
+    #wgpt3 {
+        padding: 3.3rem;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    #wgpt3 {
+        gap: 2.5rem;
+    }
+    #wgpt3 > div {
+        display: flex;
+        flex-direction: row;
+    }
+    #wgpt3 > div:first-child {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    #wgpt3 > div:first-child h4{
+        flex: 1;
+    }
+    #wgpt3 > div:first-child p{
+        flex: 3;
+    }
+
+    .explore {
+        align-items: start;
+    }
+    .explore > * {
+        flex: 1;
+        text-align: left;
+    }
+    .explore a {
+        text-align: right;
+    }
+
+    .examples {
+        gap: 1.25rem;
+    }
+    .examples > * {
+        flex: 1;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #wgpt3 {
+        max-width: 1247px;
+        margin: 4rem auto;
+    }
+}
