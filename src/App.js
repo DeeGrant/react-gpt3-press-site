@@ -5,16 +5,12 @@ import { Brand, CTA, Navbar } from './components';
 function App() {
   return (
       <div className="App">
-          <section className="gradient__bg">
-              <Navbar></Navbar>
-              <Header></Header>
-              <Brand></Brand>
-          </section>
+          <Navbar></Navbar>
+          <Header></Header>
+          <Brand></Brand>
           <WhatGPT3></WhatGPT3>
-          <section className="gradient__bg">
-              <Features></Features>
-              <Possibility></Possibility>
-          </section>
+          <Features></Features>
+          <Possibility></Possibility>
           <CTA></CTA>
           <Blog></Blog>
           <Footer></Footer>
