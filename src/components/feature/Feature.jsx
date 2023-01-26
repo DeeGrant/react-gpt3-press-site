@@ -1,10 +1,11 @@
 import './feature.css';
 
-const Feature = () => {
+const Feature = ({title, text}) => {
     return (
-        <div>
-            Feature
-        </div>
+        <section>
+            <h4>{title}</h4>
+            <p>{text}</p>
+        </section>
     );
 };
 
