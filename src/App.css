@@ -1,48 +1,21 @@
-/* TODO Consolidate heading styling */
-h1 {
+h1, h2, h3, h4, h5 {
   font-size: 1.5rem;
+  line-height: 1.25;
   font-weight: 700;
-  line-height: 2rem;
-  text-transform: capitalize;
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
-h2 {
+h1, h2 {
   font-size: 2rem;
-  font-weight: 700;
   text-transform: capitalize;
-  padding-bottom: 1rem;
 }
 
 h3 {
   font-size: 1.25rem;
-  font-weight: 700;
-}
-
-h4 {
-  display: inline-block;
-  position: relative;
-
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 2;
-}
-h4:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 60%;
-  bottom: 1.9em;
-  background: var(--gradient-bar);
 }
 
 h5 {
-  font-size: 2rem;
   font-weight: 800;
-  line-height: 1.25;
-  margin-bottom: 1rem;
 }
 
 .gradient__text {
@@ -84,17 +57,9 @@ h5 {
   }
 }
 
-@media screen and (min-width: 700px) {
-  h1 {
-    font-size: 2rem;
-    line-height: 2.5rem;
-  }
-}
-
 @media screen and (min-width: 1020px) {
   h1 {
     font-size: 3rem;
-    line-height: 3rem;
   }
 
   .section__padding {

@@ -1,4 +1,5 @@
 import './whatGPT3.css';
+import H4Bar from "../../components/h4-bar/H4-bar";
 
 const WhatGpt3 = () => {
     return (
@@ -13,15 +14,15 @@ const WhatGpt3 = () => {
             </div>
             <div className="examples">
                 <section>
-                    <h4>Chatbots</h4>
+                    <H4Bar text="Chatbots"/>
                     <p>We so opinion friends me message as delight. Whole front do of plate heard oh ought.</p>
                 </section>
                 <section>
-                    <h4>Knowledge</h4>
+                    <H4Bar text="Knowledge"/>
                     <p>At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments.</p>
                 </section>
                 <section>
-                    <h4>Education</h4>
+                    <H4Bar text="Education"/>
                     <p>At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments.</p>
                 </section>
             </div>
