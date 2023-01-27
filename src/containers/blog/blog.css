@@ -1,0 +1,10 @@
+#blog {
+    color: #fff;
+    font-family: var(--font-family);
+}
+
+#blog div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}

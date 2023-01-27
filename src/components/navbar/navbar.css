@@ -16,7 +16,7 @@ nav {
     height: 1rem;
 }
 
-ul {
+nav ul {
     display: none;
     position: absolute;
     top: 5rem;
@@ -52,7 +52,8 @@ svg {
     nav {
         padding: 2rem 4rem;
     }
-    ul {
+
+    nav ul {
         right: 3rem;
     }
 }
@@ -66,7 +67,7 @@ svg {
         padding: 2rem 6rem;
     }
 
-    ul {
+    nav ul {
         flex: 1;
         position: static;
         display: flex;

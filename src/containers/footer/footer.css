@@ -1,0 +1,13 @@
+footer {
+    color: #fff;
+    font-family: var(--font-family);
+}
+
+footer button.btn {
+    background-color: transparent;
+    border: #fff solid 1px;
+}
+
+#outro {
+    text-align: center;
+}

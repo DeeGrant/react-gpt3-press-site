@@ -1,4 +1,11 @@
 #CTA {
     background: var(--gradient-bar);
     color: #000;
+    font-family: var(--font-family);
+    text-align: center;
+}
+
+#CTA button {
+    background-color: #000;
+    color: #fff;
 }

@@ -1,6 +1,12 @@
 #possibility {
+    font-family: var(--font-family);
     overflow: hidden;
 }
+
 #possibility img {
     max-width: 20rem;
+}
+
+#possibility a {
+    color: var(--color-subtext);
 }

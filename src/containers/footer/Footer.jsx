@@ -2,15 +2,15 @@ import './footer.css';
 
 const Footer = () => {
     return (
-        <footer>
-            <div>
-                <h2>Do you want to step in to the future before others</h2>
-                <button>Request Early Access</button>
+        <footer className="section__padding">
+            <div id="outro">
+                <h2 className="gradient__text">Do you want to step in to the future before others</h2>
+                <button className="btn">Request Early Access</button>
             </div>
             <div>
                 <section>
-                    <h5></h5>
-                    <address></address>
+                    <h5>GPT-3</h5>
+                    <address>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</address>
                 </section>
                 <section>
                     <h6>Links</h6>
@@ -31,11 +31,12 @@ const Footer = () => {
                 </section>
                 <section>
                     <h6>Get in Touch</h6>
-                    <ul>
-                        <li><address></address></li>
-                        <li><phone></phone></li>
-                        <li><email></email></li>
-                    </ul>
+                    <address>
+                        Crechterwoord K12<br/>
+                        182 DK Alknjkcb<br/>
+                        <a href="tel:555-1234">555-1234</a><br/>
+                        <a href="mailto:nothing@nowhere.net">nothing@nowhere.net</a>
+                    </address>
                 </section>
             </div>
             <div><span>Copyright</span></div>

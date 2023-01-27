@@ -1,0 +1,7 @@
+#features {
+    font-family: var(--font-family);
+}
+
+#features a {
+    color: var(--color-subtext);
+}
