@@ -1,6 +1,7 @@
 #features {
     font-family: var(--font-family);
     font-size: .9rem;
+    padding-bottom: 0;
 }
 
 #features a {

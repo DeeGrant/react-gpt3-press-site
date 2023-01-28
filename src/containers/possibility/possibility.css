@@ -1,12 +1,42 @@
 #possibility {
     font-family: var(--font-family);
+    padding-top: 0;
     overflow: hidden;
+    font-size: 0.9rem;
 }
 
-#possibility img {
+#possibility > img {
     max-width: 20rem;
 }
 
 #possibility a {
     color: var(--color-subtext);
+}
+
+@media screen and (max-width: 700px) {
+    #possibility > img {
+        padding-bottom: 1rem;
+    }
+    #possibility > div {
+        text-align: right;
+    }
+}
+@media screen and (min-width: 700px) {
+    #possibility {
+        display: flex;
+        align-items: flex-end;
+        gap: 2rem;
+    }
+
+    #possibility > img {
+        width: 50%;
+        max-width: 35rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #possibility {
+        max-width: 1440px;
+        margin: auto;
+    }
 }
