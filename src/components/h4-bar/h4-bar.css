@@ -1,10 +1,10 @@
-div.h4-bar {
+.h4-bar > div {
     background: var(--gradient-bar);
     height: .2rem;
     width: 2.5rem;
-    margin: .5rem 0;
+    margin-bottom: .5rem;
 }
 
-h4.h4-bar {
+.h4-bar > h4 {
     color: #fff;
 }

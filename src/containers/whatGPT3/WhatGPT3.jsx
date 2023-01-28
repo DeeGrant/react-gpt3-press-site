@@ -5,7 +5,7 @@ const WhatGpt3 = () => {
     return (
         <section id="wgpt3" className="section__margin">
             <div>
-                <h4>What is GPT-3?</h4>
+                <H4Bar text="What is GPT-3?"/>
                 <p>We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by.</p>
             </div>
             <div className="explore">
