@@ -1,7 +1,68 @@
 #features {
     font-family: var(--font-family);
+    font-size: .9rem;
 }
 
 #features a {
     color: var(--color-subtext);
+}
+
+#features > div:first-child {
+    padding-bottom: 2rem;
+}
+
+#features h4 {
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 700px) {
+    #features > div:first-child {
+        padding-bottom: 3rem;
+    }
+
+    #features > div:last-child {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    #features {
+        display: flex;
+        align-items: start;
+        gap: 5rem;
+    }
+
+    #features > div:first-child {
+        flex: 3;
+    }
+
+    #features > div:last-child {
+        flex: 5;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #features > div:last-child section {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        gap: 2rem;
+    }
+    #features > div:last-child section > .h4-bar {
+        flex: 1
+    }
+    #features > div:last-child section > p {
+        flex: 2
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    #features {
+        max-width: 1700px;
+        margin: auto;
+    }
 }
