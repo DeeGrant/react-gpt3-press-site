@@ -15,7 +15,7 @@ const Navbar = () => {
                 <li><a href="#features">Case Studies</a></li>
                 <li><a href="#possibility">Open AI</a></li>
                 <li><a href="#blog">Library</a></li>
-                <li><a href="#">Sign in</a></li>
+                <li><a href="#home">Sign in</a></li>
                 <li><button type="button" className="btn">Sign up</button></li>
             </ul>
             {showMobileMenu

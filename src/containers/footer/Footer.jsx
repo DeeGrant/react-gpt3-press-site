@@ -15,18 +15,18 @@ const Footer = () => {
                 <section>
                     <h6>Links</h6>
                     <ul>
-                        <li><a href="#">Overons</a></li>
-                        <li><a href="#">Social Media</a></li>
-                        <li><a href="#">Counters</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#info">Overons</a></li>
+                        <li><a href="#info">Social Media</a></li>
+                        <li><a href="#info">Counters</a></li>
+                        <li><a href="#info">Contact</a></li>
                     </ul>
                 </section>
                 <section>
                     <h6>Company</h6>
                     <ul>
-                        <li><a href="#">Terms & Conditions</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#info">Terms & Conditions</a></li>
+                        <li><a href="#info">Privacy Policy</a></li>
+                        <li><a href="#info">Contact</a></li>
                     </ul>
                 </section>
                 <section>

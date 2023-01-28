@@ -1,6 +1,17 @@
 # react-gpt3-press-site
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/07e1bf96-92b3-4a07-b22a-fcacc8d72304/deploy-status)](https://app.netlify.com/sites/gpt3-press-site/deploys)
+
+[gpt3-press-site.netlify.app](https://gpt3-press-site.netlify.app/)
+
 [Application One](https://www.youtube.com/watch?v=F627pKNUCVQ&t=212s) from [JavaScript Mastery's](https://www.youtube.com/@javascriptmastery) tutorial.
+
+# TODO
+- Fix janky main blog article
+- Fix article image assignment
+- Move 'Read Full Article' to bottom of article
+- Final review
+- Deploy
 
 # Getting Started with Create React App
 

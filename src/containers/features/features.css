@@ -32,7 +32,7 @@
 @media screen and (min-width: 1020px) {
     #features {
         display: flex;
-        align-items: start;
+        align-items: flex-start;
         gap: 5rem;
     }
 
@@ -50,7 +50,7 @@
     #features > div:last-child section {
         display: flex;
         flex-direction: row;
-        align-items: start;
+        align-items: flex-start;
         gap: 2rem;
     }
     #features > div:last-child section > .h4-bar {
