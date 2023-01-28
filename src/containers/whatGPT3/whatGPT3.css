@@ -1,8 +1,6 @@
-/* TODO improve styles */
-/* TODO move header styling */
-
 #wgpt3 {
-    background: var(--color-blog);
+    background: linear-gradient(to bottom right, #0F4279 -5%, transparent 15%, transparent 80%, #1B78DE 120%),
+                var(--color-blog);
     font-family: var(--font-family);
     padding: 2rem;
     display: flex;
