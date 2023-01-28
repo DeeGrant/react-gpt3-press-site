@@ -61,9 +61,9 @@
     }
 }
 
-@media screen and (min-width: 1700px) {
+@media screen and (min-width: 1440px) {
     #features {
-        max-width: 1700px;
+        max-width: 1440px;
         margin: auto;
     }
 }
