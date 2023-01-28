@@ -38,8 +38,9 @@ const Blog = () => {
             <h2 className="gradient__text">A lot is happening, We are blogging about it.</h2>
             <div>
                 {/* TODO fix article image */}
+                {/* TODO add keys */}
                 {articleData.map((item, _) => (
-                    <Article title={item.title} date={item.date} article_link={item.article_link} image_url={blog01} />
+                    <Article title={item.title} date={item.date} article_link={item.article_link} image_url={blog02} />
                 ))}
             </div>
         </section>

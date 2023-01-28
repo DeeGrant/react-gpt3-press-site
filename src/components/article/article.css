@@ -1,7 +1,17 @@
 article {
-    overflow: hidden;
+    font-size: 0.75rem;
 }
 
 article img {
-    max-width: 20rem;
+    width: 100%;
+}
+
+article section {
+    background-color: var(--color-blog);
+    padding: 1.5rem 1rem;
+}
+
+article section span {
+    display: block;
+    padding-bottom: 0.5rem;
 }

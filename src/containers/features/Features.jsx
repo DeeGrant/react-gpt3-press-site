@@ -24,6 +24,7 @@ const Features = () => {
                 <a href="#early-access">Request Early Access to Get Started</a>
             </div>
             <div>
+                {/* TODO add keys */}
                 {featuresData.map((item, _) => (
                     <Feature title={item.title} text={item.text} />
                 ))}
