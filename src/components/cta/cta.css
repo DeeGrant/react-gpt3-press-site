@@ -9,3 +9,35 @@
     background-color: #000;
     color: #fff;
 }
+
+@media screen and (min-width: 550px) {
+    #CTA {
+        border-radius: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    #CTA {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        gap: 2rem;
+
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    #CTA button {
+        min-width: 9.25rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #CTA {
+        max-width: 1247px;
+        margin: 4rem auto;
+    }
+}
