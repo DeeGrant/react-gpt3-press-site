@@ -35,7 +35,7 @@ const articleData = [
 const Blog = () => {
     return (
         <section id="blog" className="section__padding">
-            <h2 className="gradient__text">A lot is happening, We are blogging about it.</h2>
+            <h2 className="gradient__text headline">A lot is happening,<br/>We are blogging about it.</h2>
             <div>
                 {/* TODO fix article image */}
                 {articleData.map((item, index) => (

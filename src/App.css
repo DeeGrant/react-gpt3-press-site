@@ -1,7 +1,7 @@
 h1, h2, h3, h4, h5 {
   font-size: 1.5rem;
   line-height: 1.25;
-  font-weight: 700;
+  font-weight: 800;
   padding-bottom: 1rem;
 }
 
@@ -12,10 +12,6 @@ h1, h2 {
 
 h3 {
   font-size: 1.25rem;
-}
-
-h5 {
-  font-weight: 800;
 }
 
 h6 {
@@ -37,6 +33,10 @@ h6 {
 .section__margin {
   /* TODO delete? */
   /*margin: 2rem;*/
+}
+
+.headline {
+  padding-bottom: 1.5rem;
 }
 
 .btn {
@@ -64,18 +64,16 @@ h6 {
   .section__margin {
     margin: 4rem;
   }
-}
 
-@media screen and (min-width: 700px) {
-  /* TODO fix headings mistakes */
-  /*h2 {*/
-  /*  font-size: 2.5rem;*/
-  /*}*/
+  .headline {
+    padding-bottom: 3rem;
+  }
 }
 
 @media screen and (min-width: 1020px) {
-  h1 {
+  h1, .headline {
     font-size: 3rem;
+    padding-bottom: 4rem;
   }
 
   .section__padding {

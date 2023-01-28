@@ -33,6 +33,10 @@
     #CTA button {
         min-width: 9.25rem;
     }
+
+    #CTA > h5 {
+        padding-bottom: 0;
+    }
 }
 
 @media screen and (min-width: 1440px) {

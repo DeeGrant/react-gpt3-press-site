@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer className="section__padding">
             <section id="outro">
-                <h2 className="gradient__text">Do you want to step in to the future before others</h2>
+                <h2 className="gradient__text headline">Do you want to step in to the future before others</h2>
                 <button className="btn">Request Early Access</button>
             </section>
             <div id="info">
