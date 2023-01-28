@@ -16,9 +16,9 @@
 }
 
 body {
-  background: radial-gradient(circle at 12% 3.5%, var(--color-bg-circle) 0%, transparent 13.5%),
-              radial-gradient(ellipse at 101% 13.5%, var(--color-bg-circle) 0%, transparent 13.5%),
-              radial-gradient(circle at -5% 38%, var(--color-bg-circle) 0%, transparent 13.5%),
+  background: radial-gradient(circle at 12% 3.5%, var(--color-bg-circle) 0%, transparent 15%),
+              radial-gradient(circle at 103% 15%, var(--color-bg-circle) 0%, transparent 11%),
+              radial-gradient(circle at -5% 40%, var(--color-bg-circle) 0%, transparent 18%),
               var(--color-bg);
   color: var(--color-text);
   -webkit-font-smoothing: antialiased;
