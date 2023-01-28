@@ -1,6 +1,11 @@
 footer {
     color: #fff;
     font-family: var(--font-family);
+    text-align: center;
+}
+
+address {
+    line-height: 1.2;
 }
 
 footer button.btn {
@@ -8,6 +13,57 @@ footer button.btn {
     border: #fff solid 1px;
 }
 
+footer section {
+    padding-bottom: 2rem;
+}
+
 #outro {
-    text-align: center;
+    padding-bottom: 4rem;
+}
+
+@media screen and (min-width: 550px) {
+    footer.section__padding {
+        padding-bottom: 2rem;
+    }
+
+    #outro {
+        /* TODO modify after updating headers */
+        /*max-width: 450px;*/
+        /*margin: auto;*/
+        padding-bottom: 8rem;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    #info {
+        display: grid;
+        /*grid-template-rows: 2fr 3fr 3fr;*/
+        grid-template-columns: 1fr 1fr;
+    }
+    #info section:first-child,
+    #info section:last-child {
+        grid-column: 1 / 4;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    #info {
+        display: flex;
+        gap: 1rem;
+
+        text-align: left;
+    }
+    #info > section {
+        flex: 1;
+    }
+    #info > section:first-child {
+        flex: 2;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    footer {
+        max-width: 1440px;
+        margin: auto;
+    }
 }

@@ -3,11 +3,11 @@ import './footer.css';
 const Footer = () => {
     return (
         <footer className="section__padding">
-            <div id="outro">
+            <section id="outro">
                 <h2 className="gradient__text">Do you want to step in to the future before others</h2>
                 <button className="btn">Request Early Access</button>
-            </div>
-            <div>
+            </section>
+            <div id="info">
                 <section>
                     <h5>GPT-3</h5>
                     <address>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</address>
@@ -39,7 +39,7 @@ const Footer = () => {
                     </address>
                 </section>
             </div>
-            <div><span>Copyright</span></div>
+            <div><span className="small-text">Copyright</span></div>
         </footer>
     );
 };
