@@ -8,7 +8,6 @@
 
 # TODO
 - Fix janky main blog article
-- Fix article image assignment
 - Move 'Read Full Article' to bottom of article
 - Final review
 - Deploy
